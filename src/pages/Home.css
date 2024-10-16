@@ -27,6 +27,20 @@
     width: 100%;
  
 }
+
+.div-conteudo{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.img-conteudo {
+    width: 400px;
+}
+
 .conteudo-p{
     display: flex;
     flex-direction: row;

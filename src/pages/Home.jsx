@@ -15,20 +15,32 @@ function Home() {
 
         <div className="conteudo-imagem">
 
-          <img className="img-logo" src="./public/images/farmarcia-placa.webp" alt="Placa da FarMárcia"/>
+          <img className="img-logo" src="./public/images/farmarcia-placa.webp" alt="Placa da FarMárcia" />
 
           <p className="p1">Estamos entusiasmados em anunciar uma nova fase para a nossa farmácia! Com a chegada de uma nova direção</p>
         </div>
 
         <div className='conteudo-texto'>
 
-          <p className="p2">Atendimento Personalizado!</p>
-          <img src="" alt="" />
-          <p className="p2">Ampla Variedade de Produtos!</p>
-          <p className="p2">Serviços Inovadores e muito mais!</p>
+          <div className='div-conteudo'>
+            <p className="p2">Atendimento Personalizado!</p>
+            <img className='img-conteudo' src="./public/images/farmarcia-camisas.png" alt="" />
+          </div>
+
+
+          <div className='div-conteudo'>
+            <p className="p2">Ampla Variedade de Produtos!</p>
+            <img className='img-conteudo' src="./public/images/farmarcia-camiseta.webp" alt="" />
+          </div>
+
+          <div className='div-conteudo'>
+            <p className="p2">Serviços Inovadores e muito mais!</p>
+            <img className='img-conteudo' src="./public/images/farmarcia-cartoes.webp" alt="" />
+          </div>
 
 
         </div>
+
 
         <div className='conteudo-footer'>
 
