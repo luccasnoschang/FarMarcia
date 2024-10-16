@@ -1,0 +1,63 @@
+.conteudo-container-senha {
+    display: flex;
+    align-items: center;
+    min-height: 80vh;
+}
+.div-esquerda {
+    min-height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.div-meio {
+    background-color: #fff;
+    min-height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div-direita {
+    min-height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.div-senha-super {
+    min-height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 10px;
+    
+}
+
+.div-senha {
+    background-color: #e23e57;
+    border-radius: 20px;
+    height: 150px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.p-senha {
+    color: black;
+}
+
+.botao {
+    border-radius: 25%;
+    height: 150px;
+    width: 150px;
+}
