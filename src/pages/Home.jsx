@@ -47,7 +47,6 @@ function Home() {
           <div className='conteudo-footer-imagem'>
             <p className="p3">Concorra a camisas exclusivas!</p>
             <p className="p3">Clique na imagem</p>
-            <img className="img-seta" src="./public/images/seta.png" alt="" />
 
 
           </div>
@@ -55,11 +54,12 @@ function Home() {
 
           <div className='conteudo-footer-button'>
 
-            <img onClick={() => { alert("Concorrendo!!!") }} className="img-camisas" src="./public/images/farmarcia-camisas.png" alt="" />
+            <img onClick={() => { alert("É só pra ilustrar mesmo né ow") }} className="img-redesSociais" src="./public/images/X.png" alt="" />
+            <img onClick={() => { alert("É só pra ilustrar mesmo né ow") }} className="img-redesSociais" src="./public/images/Instagram.png" alt="" />
+            <img onClick={() => { alert("É só pra ilustrar mesmo né ow") }} className="img-redesSociais" src="./public/images/Facebook.png" alt="" />
+            <img onClick={() => { alert("É só pra ilustrar mesmo né ow") }} className="img-redesSociais" src="./public/images/Youtube.png" alt="" />
 
           </div>
-
-
 
 
         </div>
