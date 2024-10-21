@@ -18,7 +18,7 @@ function Home() {
 
           <div className='titulo-incial'>
             <p className="p1">Uma nova fase para a nossa farmácia!</p>
-            <p className='p4'>Estamos sob nova administração e prontos para atender você com ainda mais dedicação. Modernizamos nosso espaço e aprimoramos os serviços para garantir uma experiência mais prática e acolhedora. Venha conhecer o novo ambiente e descubra como continuamos focados em cuidar da sua saúde com qualidade e compromisso.</p>
+            <p className='p4'>Estamos entusiasmados em anunciar uma nova fase para a nossa farmácia! Com a chegada de uma nova direção, renovamos o espaço e aprimoramos nossos serviços para proporcionar um melhor atendimento. Venha nos visitar e descubra as novidades que preparamos para você!</p>
           </div>
         </div>
 
