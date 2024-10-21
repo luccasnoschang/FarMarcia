@@ -1,4 +1,3 @@
-import React from 'react'
 import Navbar from '../components/Navbar'
 import './Senha.css'
 
@@ -6,7 +5,6 @@ import { useContext } from 'react'
 import { GlobalContext } from '../contexts/GlobalContext'
 
 function Senha() {
-
 
   const {senhas, setSenhas} = useContext(GlobalContext)
 
@@ -44,7 +42,7 @@ function Senha() {
       const novasSenhas = senhas.filter(senha => senha.tipo === "Normal");
       if (novasSenhas.length > 0) {
         setSenhas(novasSenhas.slice(1));
-        alert("Senha Normal chamada!");
+        alert("Senha Normal chamada! " );
       } else {
         alert("Nenhuma senha disponível!");
       }
